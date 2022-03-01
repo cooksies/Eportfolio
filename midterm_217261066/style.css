@@ -74,9 +74,26 @@ span.eduCards{
     font-weight: 400; 
 }
 
+footer{
+    padding:0.1rem;
+    background-color: rgb(78, 78, 78);
+}
+
+footer h2.text-center{
+    color:white;
+}
+
+footer label{
+    color:white;
+}
+
 /*Contact CSS*/
 input{
     padding: 4em;
+}
+
+.md-form{
+    margin: 0.75rem;
 }
 
 .btn{
