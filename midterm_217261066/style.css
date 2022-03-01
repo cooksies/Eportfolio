@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding:3px;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#navbar{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+}
+
+.navbar-nav li a:hover{ 
+    color:aqua !important;
+}
+
+#about-me{
+    margin: 50px 0
+}
+
+.card{
+    width: 12rem;
+    height: 22rem;
+}
+
+div.eduCards{
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+span.eduCards{
+    padding-right: 30px;
+}
+
+.card-img-top{
+    width: 10em;
+    height: 11em;
+}
+
+.card-body{
+    padding:0 !important;
+}
+
+.card-body p{
+    margin: 0;
+
+}
+
+.card-body a{
+    text-decoration: none !important;
+    color:black;
+    font-weight: 700;
+}
+
+.card-text a{
+    font-weight: 400; 
+}
