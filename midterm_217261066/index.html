@@ -93,6 +93,7 @@
                     <div class="row">
                         <div class="col-md-9 m-auto">
                             <div class="eduCards">
+
                                 <span class="eduCards">
                                     <div class="card">
                                         <img class="card-img-top" src="images/yorkuLogo.png" alt="York University Emblem">
@@ -103,6 +104,7 @@
                                         </div>
                                     </div>
                                 </span>
+
                                 <span class="eduCards">
                                     <div class="card">
                                         <img class="card-img-top" src="images/sjpiiLogo.svg" alt="St. John Paul II high school logo">
@@ -113,6 +115,7 @@
                                         </div>
                                     </div>
                                 </span>
+
                                 <span class="eduCards">
                                     <div class="card">
                                         <img class="card-img-top" src="images/stJohnLogo.png" alt="St. John's Ambulance emblem">
@@ -123,6 +126,7 @@
                                         </div>
                                     </div>
                                 </span>
+
                             </div>
                         </div>
                     </div>     
@@ -149,15 +153,15 @@
             <footer>
             <!--Contact-->
             <section id="contact" class="mb-5">
-    
+
                     <!--Section heading-->
                     <h2 class="text-center">CONTACT</h2>
     
                     <div class="row">
                         <div class="col-md-6 m-auto">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                            <form id="contact-form" name="contact-form" action="">
+
                                 <div class="row">
-    
                                     <!--Grid column-->
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
@@ -171,11 +175,10 @@
                                     <div class="col-md-6">
                                         <div class="md-form mb-0">
                                             <label for="number" class="">Phone Number</label>
-                                            <input type="text" id="number" name="number" placeholder="Phone #" class="form-control">                                            
+                                            <input type="tel" id="number" name="number" placeholder="Phone #" class="form-control">                                            
                                         </div>
                                     </div>
                                     <!--Grid column-->
-    
                                 </div>
                                 <!--Grid row-->
     
@@ -191,26 +194,25 @@
                                 <!--Grid row-->
     
                                 <!--Grid row-->
-                                <div class="row">
-    
+                                <div class="row">    
                                     <!--Grid column-->
-                                    <div class="col-md-12">
-    
+                                    <div class="col-md-12">    
                                         <div class="md-form">
                                             <label for="message">Message</label>
                                             <textarea type="text" id="message" name="message" placeholder="Type message here" rows="2" class="form-control md-textarea"></textarea>                                            
-                                        </div>
-    
+                                        </div>    
                                     </div>
                                 </div>
                                 <!--Grid row-->
-    
-                            </form>
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-dark" type="submit">Submit</a>
-                            </div>
-                            <div class="status"></div>
-                    </div>    
+                                
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-dark" type="submit" id="submit">Submit</a>
+                                </div>
+                            </form>                            
+                            <script type = "text/javascript"  src = "eventHandler.js">
+                            </script>
+                        </div>   
+                    </div> 
                 </section>
             </footer>
         </body>
