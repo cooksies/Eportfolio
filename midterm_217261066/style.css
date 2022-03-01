@@ -39,7 +39,12 @@ body{
 }
 
 section{
-    margin: 50px 0
+    margin-bottom:3em;
+}
+
+section h2{
+    margin: 2rem 0;
+    font-weight: 615;
 }
 
 .card{
@@ -88,9 +93,25 @@ span.eduCards{
     font-weight: 400; 
 }
 
+.accordion-button{
+    background-color: rgb(156, 155, 153) !important;
+}
+
 .accordImg{
     width:8em;
     padding-right: 1rem;
+}
+
+.accordion-text{
+    color:rgb(255, 255, 255);
+}
+
+.jobTitle{
+    font-weight: 600;
+}
+
+.accordion-body li{
+    padding: 0.5rem;
 }
 
 footer{
