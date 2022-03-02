@@ -47,6 +47,7 @@ section h2{
     font-weight: 615;
 }
 
+/* Education CSS */
 .card{
     width: 12rem;
     height: 22rem;
@@ -93,6 +94,7 @@ span.eduCards{
     font-weight: 400; 
 }
 
+/*Experience CSS*/
 .accordion-button{
     background-color: rgb(156, 155, 153) !important;
 }
@@ -114,6 +116,13 @@ span.eduCards{
     padding: 0.5rem;
 }
 
+/* Skills CSS */
+.skills button{
+    width: auto;
+    margin: 3px 0;
+}
+
+/*Contact CSS*/
 footer{
     padding:0.1rem;
     background-color: rgb(78, 78, 78);
@@ -127,7 +136,7 @@ footer label{
     color:white;
 }
 
-/*Contact CSS*/
+
 input{
     padding: 4em;
 }
