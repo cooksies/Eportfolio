@@ -58,11 +58,12 @@ div.eduCards{
     display:flex;
     justify-content: center;
     position: relative;
+    overflow:auto;
     align-items: center;
 }
 
 span.eduCards{
-    padding-right: 30px;
+    padding: 0 20px;
 }
 
 .card-img-top{
